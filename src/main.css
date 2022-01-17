@@ -111,3 +111,31 @@ button:hover {
     background-color: #fff;
     color: #9e379f;
 }
+
+#consent-popup {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    opacity: 1;
+    background-color: #fff;
+}
+
+#consent-popup .hidden {
+    opacity: 0;
+}
+
+#consent-popup p{
+    background-color: #fff;
+}
+
+#consent-popup a {
+    background-color: #fff;
+    color: #9e379f;
+}
+
+#consent-popup a:hover {
+    color: #d017d3;
+}

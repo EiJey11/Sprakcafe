@@ -1,28 +1,35 @@
-const cokiesStorage = {
+const cookieStorage = {
     getItem: (item)=>{
-        const cookies = document.cookie.split(';').map((cookie)=>cookie.split('')
+        const cookies = document.cookie.split(';').map((cookie)=>cookie.split('=')
         ).reduce((acc, [key, value])=>({
                 ...acc,
                 [key.trim()]: value
             })
-        );
-        return cookies[key];
+        , {
+        });
+        return cookies[item];
     },
-    setItem: (key, value)=>{
-        document.cookie = `${key}=${value}`;
+    setItem: (item, value)=>{
+        document.cookie = `${item}=${value};`;
     }
 };
-const storageType = cookie;
+const storageType = cookieStorage;
 const consentPropertyName = 'jdc_consent';
 const shouldShowPopup = ()=>!storageType.getItem(consentPropertyName)
 ;
 const saveToStorage = ()=>storageType.setItem(consentPropertyName, true)
 ;
 window.onload = ()=>{
-    if (shouldShowPopup()) {
-        const consent = confirm('Agree to the terms and conditions of the site?');
-        if (consent) saveToStorage();
-    }
+    const acceptFn = (event)=>{
+        saveToStorage(storageType);
+        consentPopup.classList.add('hidden');
+    };
+    const consentPopup = document.getElementById('consent-popup');
+    const acceptBtn = document.getElementById('accept');
+    acceptBtn.addEventListener('click', acceptFn);
+    if (shouldShowPopup(storageType)) setTimeout(()=>{
+        consentPopup.classList.remove('hidden');
+    }, 2000);
 };
 
 //# sourceMappingURL=index.816e7b21.js.map
