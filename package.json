@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "parcel": "^2.2.1"
+  },
+  "name": "scafe",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "serve": "parcel serve src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EiJey11/Sprakcafe.git"
+  },
+  "author": "Artur J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EiJey11/Sprakcafe/issues"
+  },
+  "homepage": "https://github.com/EiJey11/Sprakcafe#readme"
+}
