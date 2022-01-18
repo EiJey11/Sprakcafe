@@ -8,14 +8,6 @@
     <title>Språkcafe</title>
 </head>
 <header class="menu">
-    <form>
-        <label>Username</label>
-        <input name="username" type="text">
-        <label>Password</label>
-        <input type="password" name="password">
-        <input class="button" type="submit">
-        <script src="/index.816e7b21.js"></script>
-    </form>
     <nav class="navbar-menu">
         <ul class="navbar-nav">
             <li class="nav-header"><a href="/index.html">Hem</a></li>
@@ -32,9 +24,22 @@
         <button class="btn btn-primary">Låt oss börja!</button>
     </div>
 
+    <form class="login-form">
+        <div class="username">
+            <label>Username</label>
+            <input name="username" type="text">
+        </div>
+        <div class="password">
+            <label>Password</label>
+            <input type="password" name="password">
+        </div>
+        <input class="button" type="submit">
+        <script src="/index.816e7b21.js"></script>
+    </form>
+
     <div id="consent-popup" class="hidden">
         <p>By using this site you agree to our <a href="#">Terms and Conditions</a>.
-            Please <a id="accept" href="#">Accept</a> these before using our site.
+            Please <a id="accept" href="#">Accept</a> these before using the site.
         </p>
     </div>
 

@@ -11,7 +11,7 @@
 
 h1 {
     color:#9e379f;
-    font-size: 10.5em;
+    font-size: 11.5em;
 }
 
 body {
@@ -26,18 +26,19 @@ body {
 
 .container_header {
     display: flex;
+    position:absolute;
+    left: 25em;
+    top: 15em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin-top: 220px;
 }
 
 
 .navbar-menu {
     display: flex;
     position:absolute;
-    left: 35px;
+    left: 35em;
     top: 25px;
     font-weight: 200;
     font-size: 18px;
@@ -53,34 +54,58 @@ body {
     list-style: none;
 }
 
-form {
+.login-form {
     display: flex;
     position:absolute;
-    right: 35px;
-    top: 25px;
+    right: 190px;
+    top: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    opacity: 1;
+    height: 40em;
+    width: 23%;
+}
+
+.username,
+.password {
+    background-color: #fff;
+}
+
+form {
+    display: flex;
     color: #fff;
 }
 
 input {
-    margin: 0 10px;
-    padding: 3px 10px;
-    border: 0.5px solid #fff;
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: 0.5px solid #9e379f;
+    background-color: #fff;
     border-radius:2px;
     color: #fff;
 }
 
 label {
     padding:0 10px;
+    background-color: #fff;
+    color: #9e379f;
 }
 
 .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#9e379f;
     color: #fff;
-    padding: 0 10px;
+    padding: 10px 100px;
 }
 
 .button:hover {
     background-color: #fff;
-    color: #000;
+    color: #9e379f;
 }
 
 a {
@@ -115,12 +140,13 @@ button:hover {
 #consent-popup {
     display: flex;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left: 0;
     right: 0;
-    padding: 2rem;
+    padding: 15px;
     opacity: 1;
     background-color: #fff;
+    transition: 4s;
 }
 
 #consent-popup .hidden {
