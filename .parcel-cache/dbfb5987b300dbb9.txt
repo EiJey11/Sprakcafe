@@ -25,7 +25,7 @@
 72C:\Users\artur\scafe\node_modules\terser\node_modules\commander\index.js132869319282148302 0
 65C:\Users\artur\scafe\node_modules\caniuse-lite\data\regions\MD.js132869319335730435 0
 52C:\Users\artur\scafe\node_modules\posthtml\readme.md132869319308250475 0
-25C:\Users\artur\scafe\dist132869681000813438 1
+25C:\Users\artur\scafe\dist132869750967429161 1
 56C:\Users\artur\scafe\node_modules\get-symbol-description132869319305810446 1
 40C:\Users\artur\scafe\Sprakcafe\.git\HEAD132869280787896323 0
 57C:\Users\artur\scafe\node_modules\svgo\plugins\plugins.js132869319317970445 0
@@ -73,7 +73,7 @@
 55C:\Users\artur\scafe\node_modules\postcss-minify-params132869319292360442 1
 30C:\Users\artur\scafe\README.md132869321598290000 0
 80C:\Users\artur\scafe\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.node132869319326740432 0
-31C:\Users\artur\scafe\src\app.js132869678730525202 0
+31C:\Users\artur\scafe\src\app.js132869697978284981 0
 45C:\Users\artur\scafe\node_modules\lodash.uniq132869319286085233 1
 73C:\Users\artur\scafe\node_modules\bl\node_modules\readable-stream\LICENSE132869319276574904 0
 58C:\Users\artur\scafe\node_modules\htmlparser2\package.json132869319302100433 0
@@ -116,7 +116,7 @@
 76C:\Users\artur\scafe\node_modules\css-tree\lib\syntax\function\expression.js132869319318580423 0
 64C:\Users\artur\scafe\node_modules\domain-browser\source\index.js132869319296280461 0
 59C:\Users\artur\scafe\node_modules\postcss-calc\package.json132869319308090382 0
-35C:\Users\artur\scafe\src\index.html132869679047431577 0
+35C:\Users\artur\scafe\src\index.html132869750964469065 0
 51C:\Users\artur\scafe\node_modules\yaml\dist\util.js132869319318890457 0
 69C:\Users\artur\scafe\node_modules\highlight.js\lib\languages\scala.js132869319328430435 0
 43C:\Users\artur\scafe\node_modules\@trysound132869319251854300 1
@@ -129,7 +129,7 @@
 53C:\Users\artur\scafe\node_modules\statuses\codes.json132869319296720427 0
 66C:\Users\artur\scafe\node_modules\@parcel\fs\src\NodeFS.browser.js132869319426568258 0
 53C:\Users\artur\scafe\node_modules\base-x\package.json132869319302590494 0
-33C:\Users\artur\scafe\src\main.css132869680999553458 0
+33C:\Users\artur\scafe\src\main.css132869721764944484 0
 81C:\Users\artur\scafe\node_modules\es-abstract\2017\CanonicalNumericIndexString.js132869319323980429 0
 62C:\Users\artur\scafe\node_modules\core-js\stable\string\big.js132869319325290454 0
 55C:\Users\artur\scafe\node_modules\which-boxed-primitive132869319305740492 1
@@ -145,7 +145,7 @@
 57C:\Users\artur\scafe\node_modules\randomfill\package.json132869319276324909 0
 68C:\Users\artur\scafe\node_modules\type-fest\source\set-optional.d.ts132869319315740430 0
 61C:\Users\artur\scafe\node_modules\core-js\stable\math\imul.js132869319345990423 0
-35C:\Users\artur\scafe\Sprakcafe\.git132869373843736530 1
+35C:\Users\artur\scafe\Sprakcafe\.git132869743322414192 1
 62C:\Users\artur\scafe\node_modules\css-tree\lib\walker\index.js132869319321450445 0
 64C:\Users\artur\scafe\node_modules\core-js\stable\regexp\index.js132869319348060407 0
 45C:\Users\artur\scafe\node_modules\graceful-fs132869319300580454 1
@@ -12937,6 +12937,6 @@
 48C:\Users\artur\scafe\node_modules\.bin\which.cmd132869319533263247 0
 43C:\Users\artur\scafe\dist\index.816e7b21.js132869678048137652 0
 47C:\Users\artur\scafe\dist\index.816e7b21.js.map132869678048247734 0
-44C:\Users\artur\scafe\dist\index.af20ad6e.css132869681000663463 0
-48C:\Users\artur\scafe\dist\index.af20ad6e.css.map132869681000753389 0
-36C:\Users\artur\scafe\dist\index.html132869679050687012 0
+44C:\Users\artur\scafe\dist\index.af20ad6e.css132869721765994448 0
+48C:\Users\artur\scafe\dist\index.af20ad6e.css.map132869721766154453 0
+36C:\Users\artur\scafe\dist\index.html132869750967369106 0

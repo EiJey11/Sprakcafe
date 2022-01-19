@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <link rel="stylesheet" href="/index.af20ad6e.css">
     <title>Språkcafe</title>
 </head>
@@ -21,7 +22,7 @@
     <div class="container_header">
         <h1>Språkcafe</h1>
         <p class="slogan">En community för människor som vill kommunicera på svenska!</p>
-        <button class="btn btn-primary">Låt oss börja!</button>
+        <button class="btn btn-primary">MER INFORMATION</button>
     </div>
 
     <form class="login-form">
@@ -33,7 +34,8 @@
             <label>Password</label>
             <input type="password" name="password">
         </div>
-        <input class="button" type="submit">
+        <input id="btn" type="submit" value="LOGIN" disabled="">
+        <div class="g-recaptcha" data-sitekey="6LcMkR4eAAAAAGW741nHEjeUbVwfgwT_8bjQOP3i" data-callback="recaptcha_callback"></div>
         <script src="/index.816e7b21.js"></script>
     </form>
 
@@ -43,6 +45,14 @@
         </p>
     </div>
 
+    <script>function recaptcha_callback() {
+    var registerBtn = document.querySelector('#btn');
+    registerBtn.removeAttribute('disabled');
+    registerBtn.style.cursor = 'pointer';
+}
+
+</script>
+      
     <script src="/index.816e7b21.js"></script>
 </body>
 </html>

@@ -5,15 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+}
+body {
     background-color: #1b1c2a;
 }
 h1 {
     color:#9e379f;
     font-size: 11.5em;
-}
-body {
-    display: flex;
-    flex-direction: column;
 }
 .menu {
     display: flex;
@@ -22,8 +20,8 @@ body {
 .container_header {
     display: flex;
     position:absolute;
-    left: 25em;
-    top: 15em;
+    left: 12%;
+    top: 14%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -31,7 +29,7 @@ body {
 .navbar-menu {
     display: flex;
     position:absolute;
-    left: 35em;
+    left: 28%;
     top: 25px;
     font-weight: 200;
     font-size: 18px;
@@ -40,6 +38,7 @@ body {
     display: flex;
 }
 .nav-header {
+    display: flex;
     padding: 10px 20px;
     color: #fff;
     list-style: none;
@@ -47,16 +46,14 @@ body {
 .login-form {
     display: flex;
     position:absolute;
-    right: 190px;
-    top: 150px;
+    right: 10%;
+    top: 17%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 40px 30px;
     background-color: #fff;
-    opacity: 1;
-    height: 40em;
-    width: 23%;
+    border-radius:3px;
 }
 .username,
 .password {
@@ -91,6 +88,9 @@ label {
     background-color: #fff;
     color: #9e379f;
 }
+.g-recaptcha {
+    margin: 25px 0;
+}
 a {
     color: #fff;
     text-decoration: none;
@@ -103,41 +103,56 @@ a:hover {
     font-size: 26px;
 }
 button {
-    background-color: none;
-    padding:10px 30px;
+    padding:10px 40px;
     border: 0.3px solid #fff;
     border-radius: 3px;
     margin-top: 65px;
-    color: #fff;
+    color: #9e379f;
     font-size: 16px;
 }
 button:hover {
+    background-color: #9e379f;
+    border-color: #9e379f;
+    color: #fff;
+}
+#btn {
+    cursor: not-allowed;
+    padding:10px 100px;
+    border: 0.3px solid #fff;
+    border-radius: 3px;
+    background-color: #9e379f;
+    color: #fff;
+    font-size: 16px;
+}
+#btn:hover {
     background-color: #fff;
+    border: 1px solid #9e379f;
     color: #9e379f;
 }
 #consent-popup {
-    display: flex;
-    position: absolute;
-    bottom: 15px;
+    position: fixed;
+    bottom: 0;
     left: 0;
     right: 0;
-    padding: 15px;
+    padding: 20px;
     opacity: 1;
-    background-color: #fff;
-    transition: 4s;
+    background-color: #eaebe8;
+    text-align: center;
+    transition: opacity .8s ease;
 }
 #consent-popup .hidden {
     opacity: 0;
 }
 #consent-popup p{
-    background-color: #fff;
+    background-color: #eaebe8
+    ;
 }
 #consent-popup a {
-    background-color: #fff;
+    background-color: #eaebe8;
     color: #9e379f;
 }
 #consent-popup a:hover {
-    color: #d017d3;
+    color: blue;
 }
 
 /*# sourceMappingURL=index.af20ad6e.css.map */

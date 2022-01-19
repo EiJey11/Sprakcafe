@@ -28,7 +28,7 @@ window.onload = () => {
 
     if (shouldShowPopup(storageType)) {
         setTimeout(() => {
-            consentPopup.classList.remove('hidden');
+            consentPopup.classList.add('hidden');
         }, 2000);
     }
 

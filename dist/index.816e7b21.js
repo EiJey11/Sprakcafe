@@ -28,7 +28,7 @@ window.onload = ()=>{
     const acceptBtn = document.getElementById('accept');
     acceptBtn.addEventListener('click', acceptFn);
     if (shouldShowPopup(storageType)) setTimeout(()=>{
-        consentPopup.classList.remove('hidden');
+        consentPopup.classList.add('hidden');
     }, 2000);
 };
 
